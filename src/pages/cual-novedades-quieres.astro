@@ -1,0 +1,15 @@
+---
+import { getSession } from "auth-astro/server"
+
+import Intro from "D:/vdxdev.es/vdxweb/vdxweb/src/pages/pronosticos/intro.astro"
+import Vote from "D:/vdxdev.es/vdxweb/vdxweb/src/pages/pronosticos/user.astro"
+import Layout from "D:/vdxdev.es/vdxweb/vdxweb/src/layouts/Layout.astro"
+
+const session = await getSession(Astro.request)
+---
+
+<Layout title="Vota Por Lo Que Quieres En vDx">
+	<main class="flex flex-col items-center justify-center text-white">
+		{session === null ? <Intro /> : <Vote user={session.user} />}
+	</main>
+</Layout>
