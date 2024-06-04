@@ -16,7 +16,6 @@
     "@auth/core": "^0.31.0",
     "@midudev/tailwind-animations": "^0.0.7",
     "astro": "^4.9.2",
-    "auth-astro": "^4.1.1",
     "dom-selector": "^0.1.0",
     "dom-selector-lib": "^1.0.0",
     "i": "^0.3.7",
