@@ -13,7 +13,7 @@
     "@asamuzakjp/dom-selector": "^4.3.0",
     "@astrojs/check": "^0.7.0",
     "@astrojs/netlify": "^5.2.1",
-    "@auth/core": "^0.31.0",
+    "@/core": "^0.31.0",
     "@midudev/tailwind-animations": "^0.0.7",
     "astro": "^4.9.2",
     "dom-selector": "^0.1.0",
@@ -25,6 +25,6 @@
   "description": "```sh npm create astro@latest -- --template basics ```",
   "main": "index.js",
   "keywords": [],
-  "author": "",
+  "or": "",
   "license": "ISC"
 }
